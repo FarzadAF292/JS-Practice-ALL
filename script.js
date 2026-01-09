@@ -125,3 +125,32 @@ fruits.pop();
 
 console.log(fruits);
 */
+
+// 🧪 Task 3.4
+/*
+const colors = ["red", "green"];
+colors.unshift("blue");
+colors.shift();
+console.log(colors);
+*/
+
+// 🧪 Task 3.5
+/*
+const nums = [1, 2, 3, 4, 5];
+const newNums = nums.map((nums) => nums * 2);
+console.log(newNums);
+*/
+
+// 🧪 Task 3.6
+/*
+const nums = [1, 2, 3, 4, 5, 6];
+const evenNums = nums.filter((num) => num % 2 === 0);
+console.log(evenNums);
+*/
+
+// 🧪 Task 3.7
+/*
+const nums = [1, 2, 3, 4, 5];
+const sum = nums.reduce((acc, curr) => acc + curr, 0);
+console.log(sum);
+*/
