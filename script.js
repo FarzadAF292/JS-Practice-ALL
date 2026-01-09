@@ -1,0 +1,127 @@
+/* 🧪 Task 1.1
+
+Create a variable called age and assign any number.
+
+Then:
+
+If age is 18 or more, print "Adult"
+
+Otherwise, print "Minor"
+
+
+let age = 20;
+if (age >= 18) {
+  console.log("Adult");
+} else {
+  console.log("Minor");
+}
+*/
+
+// Task 1.2
+
+/*
+const score = Number(prompt("Enter a number from 0-100:"));
+if (score >= 90) {
+  console.log("Excellent");
+} else if (score >= 70 && score < 90) {
+  console.log("Good");
+} else if (score >= 50 && score < 70) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
+*/
+
+/*
+🧪 Task 1.3
+
+Using the same score variable:
+
+If score is not a number OR
+
+Score is less than 0 OR
+
+Score is greater than 100
+
+
+const score = Number(prompt("Enter a number from 0-100:"));
+if (isNaN(score) || score < 0 || score > 100) {
+    console.log("Invalid score");
+}
+*/
+
+// 🧪 Task 1.4
+/*
+const temp = Number(prompt("Enter a number for temperature:"));
+let result = temp`` >= 30 ? "Hot" : "Cold";
+console.log(result);
+*/
+
+/////////////////////////////// Phase 2 -- Loops
+// 🧪 Task 2.1
+//for (let i = 1; i <= 10; i++) console.log(i);
+
+// 🧪 Task 2.2
+/*
+Using a for loop:
+
+Print numbers from 1 to 20
+
+Print ONLY even numbers
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
+*/
+
+// 🧪 Task 2.3
+/*
+let i = 5;
+while (i >= 1) {
+  console.log(i);
+  i--;
+}
+*/
+
+// 🧪 Task 2.4
+/*
+for (let i = 1; i <= 10; i++) {
+  if (i === 6) break;
+  console.log(i);
+}
+*/
+
+// Task 2.5
+/*
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) continue;
+  console.log(i);
+}
+*/
+
+/////////////////// Phase 3 -- Arrays
+// 🧪 Task 3.1
+/*
+const numbers = [10, 20, 30, 40, 50];
+console.log(numbers[0]);
+console.log(numbers[numbers.length - 1]);
+*/
+
+// 🧪 Task 3.2
+/*
+const numbers = [10, 20, 30, 40, 50];
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+*/
+
+// 🧪 Task 3.3
+/*
+const fruits = ["apple", "banana"];
+fruits.push("orange");
+fruits.pop();
+
+console.log(fruits);
+*/
