@@ -175,3 +175,42 @@ const total = nums
   .reduce((acc, curr) => acc + curr, 0);
 console.log(total);
 */
+
+// Phase 5 -- Functions
+// 🧪 Task 5.1
+/*
+const add = function (a, b) {
+  return a + b;
+};
+const result = add(5, 3);
+console.log(result);
+*/
+
+// 🧪 Task 5.2
+/*
+const isAdult = function (age) {
+  if (age >= 18) {
+    return true;
+  } else {
+    return false;
+  }
+};
+const result = isAdult(20);
+console.log(result);
+*/
+
+// 🧪 Task 5.3
+/*
+const isAdult = (age) => {
+  return age >= 18;
+};
+const result = isAdult(16);
+console.log(result);
+*/
+
+// 🧪 Task 5.4
+/*
+const isAdult = (age) => age >= 18;
+const result = isAdult(8);
+console.log(result);
+*/
