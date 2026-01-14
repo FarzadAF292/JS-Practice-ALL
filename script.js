@@ -154,3 +154,24 @@ const nums = [1, 2, 3, 4, 5];
 const sum = nums.reduce((acc, curr) => acc + curr, 0);
 console.log(sum);
 */
+
+/////////////////// Phase 4 -- Chainning
+// 🧪 Task 4.1
+/*
+Keep only even numbers
+
+Double them
+const nums = [1, 2, 3, 4, 5, 6];
+const result = nums.filter((num) => num % 2 === 0).map((num) => num * 2);
+console.log(result);
+*/
+
+// 🧪 Task 4.2
+/*
+const nums = [1, 2, 3, 4, 5, 6];
+const total = nums
+  .filter((num) => num % 2 === 1)
+  .map((num) => num * num)
+  .reduce((acc, curr) => acc + curr, 0);
+console.log(total);
+*/
