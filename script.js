@@ -176,7 +176,7 @@ const total = nums
 console.log(total);
 */
 
-// Phase 5 -- Functions
+///////////////////////// Phase 5 -- Functions
 // 🧪 Task 5.1
 /*
 const add = function (a, b) {
@@ -212,5 +212,29 @@ console.log(result);
 /*
 const isAdult = (age) => age >= 18;
 const result = isAdult(8);
+console.log(result);
+*/
+
+///////////////////// PHASE 6 — FUNCTIONS + ARRAYS
+// 🧪 Task 6.1
+/*
+const doubleAll = (arr) => {
+  return arr.map((num) => num * 2);
+};
+const result = doubleAll([1, 2, 3]);
+console.log(result);
+*/
+
+// 🧪 Task 6.2
+/*
+const getEvens = (arr) => arr.filter((num) => num % 2 === 0);
+const result = getEvens([1, 2, 3, 4, 5, 6]);
+console.log(result);
+*/
+
+// 🧪 Task 6.3
+/*
+const sumArray = (arr) => arr.reduce((acc, curr) => acc + curr, 0);
+const result = sumArray([1, 2, 3, 4, 5]);
 console.log(result);
 */
