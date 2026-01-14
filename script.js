@@ -238,3 +238,49 @@ const sumArray = (arr) => arr.reduce((acc, curr) => acc + curr, 0);
 const result = sumArray([1, 2, 3, 4, 5]);
 console.log(result);
 */
+
+///////////////////// PHASE 7 — FUNCTIONS + DOM (REAL FRONTEND)
+// 🧪 Task 7.1
+/*
+const p = document.getElementById("text");
+const btn = document.getElementById("btn");
+const changeText = () => {
+  btn.addEventListener("click", () => {
+    p.textContent = "Text Changed!";
+  });
+};
+changeText();
+*/
+
+// 🧪 Task 7.2
+/*
+const p = document.getElementById("text");
+const btn = document.getElementById("btn");
+const changeText = () => {
+  btn.addEventListener("click", () => {
+    if (p.textContent === "Hello JavaScript!") {
+      p.textContent = "Hello";
+    } else {
+      p.textContent = "Hello JavaScript!";
+    }
+  });
+};
+changeText();
+*/
+
+// 🧪 Task 7.2(repeat and solve the mistakes)
+/*
+const p = document.getElementById("text");
+const btn = document.getElementById("btn");
+let isChanged = false;
+const changeText = () => {
+  if (isChanged) {
+    p.textContent = "Hello";
+  } else {
+    p.textContent = "Hello JavaScript!";
+  }
+
+  isChanged = !isChanged;
+};
+btn.addEventListener("click", changeText);
+*/
